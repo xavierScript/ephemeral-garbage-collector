@@ -113,7 +113,7 @@ async function main() {
 
         // Create the CrankClose instruction instead of CrankUpdate
         const closeInstruction = await erProgram.methods.crankClose()
-            .accounts({
+            .accountsPartial({
                 user: wallet.publicKey,
                 userAccount: userAccount,
                 systemProgram: anchor.web3.SystemProgram.programId
