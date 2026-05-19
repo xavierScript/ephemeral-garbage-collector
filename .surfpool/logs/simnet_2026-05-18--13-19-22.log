@@ -1,0 +1,14 @@
+[2026-05-18--13-19-22 INFO actix_server::builder] starting 5 workers
+[2026-05-18--13-19-22 INFO actix_server::server] Tokio runtime found; starting in existing Tokio runtime
+[2026-05-18--13-19-22 INFO actix_server::server] starting service: "actix-web-service-127.0.0.1:18488", workers: 5, listening on: 127.0.0.1:18488
+[2026-05-18--13-19-23 INFO parity_ws] Listening for new connections on 127.0.0.1:8900.
+[2026-05-18--13-20-15 INFO txtx::svm::deploy_program] [Recovery Instructions] - An ephemeral authority account will be created and funded to write to the buffer account.
+[2026-05-18--13-20-15 INFO txtx::svm::deploy_program] [Recovery Instructions] - Please save the following information in case the deployment fails and the account needs to be recovered:
+[2026-05-18--13-20-15 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority public key: FBwmM9ztuPmUhrZx7KK1b5sKuDYRWeoaZASdjNDkPWT3
+[2026-05-18--13-20-15 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority secret key: [29, 120, 204, 101, 166, 15, 83, 3, 144, 255, 68, 122, 131, 68, 18, 105, 58, 26, 165, 237, 16, 134, 147, 245, 67, 190, 80, 247, 148, 21, 59, 203, 210, 209, 88, 252, 147, 142, 15, 182, 68, 216, 35, 101, 112, 193, 230, 186, 253, 131, 164, 129, 168, 240, 225, 242, 36, 27, 67, 58, 157, 165, 149, 218]
+[2026-05-18--13-20-35 INFO txtx::svm::deploy_program] Account Created - Ephemeral authority account created and funded to write to buffer
+[2026-05-18--13-20-35 INFO txtx::svm::deploy_program] [Recovery Instructions] - Creating program buffer account at pubkey H1KjAucTbDMR8jMFw3hMeDBoznSJRPpuXKbgHr35USqu
+[2026-05-18--13-20-36 INFO txtx::svm::deploy_program] Account Created - Program buffer account created
+[2026-05-18--13-20-56 INFO txtx::svm::deploy_program] Buffer Ready - Writing to buffer account is complete
+[2026-05-18--13-21-47 ERROR txtx::svm::send_transaction] Failed - Failed to broadcast transaction
+[2026-05-18--13-21-47 ERROR txtx::svm::send_transaction] Failed - error: unable to send and confirm transaction (error sending request for url (http://127.0.0.1:8899/))
